@@ -18,7 +18,7 @@ struct ContentView: View {
             Color.white.edgesIgnoringSafeArea(.all)
 
             VStack {
-                Spacer() // This will push everything below to the bottom
+                Spacer() // push everything below to the bottom
                 drawingCanvas
                 drawingToolbar
             }
