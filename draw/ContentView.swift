@@ -57,7 +57,8 @@ struct ContentView: View {
 
     private var drawingToolbar: some View {
         HStack {
-            ColorPicker("Pick Color", selection: $selectedColor, supportsOpacity: false)
+            ColorPicker(selectedColor: $selectedColor)
+            
             Slider(value: $lineWidth, in: 1...10)
             Button(action: clearAllPaths) {
                 Image(systemName: "trash").foregroundColor(.black)

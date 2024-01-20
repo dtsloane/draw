@@ -14,6 +14,7 @@
 		443806E42B3600D200F3AC3B /* drawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443806E32B3600D200F3AC3B /* drawTests.swift */; };
 		443806EE2B3600D200F3AC3B /* drawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443806ED2B3600D200F3AC3B /* drawUITests.swift */; };
 		443806F02B3600D200F3AC3B /* drawUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443806EF2B3600D200F3AC3B /* drawUITestsLaunchTests.swift */; };
+		44EF05202B5C31AC00264C8E /* colourpicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF051F2B5C31AC00264C8E /* colourpicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		443806E92B3600D200F3AC3B /* drawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		443806ED2B3600D200F3AC3B /* drawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawUITests.swift; sourceTree = "<group>"; };
 		443806EF2B3600D200F3AC3B /* drawUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		44EF051F2B5C31AC00264C8E /* colourpicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colourpicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				443806D42B3600D000F3AC3B /* ContentView.swift */,
 				443806D62B3600D200F3AC3B /* Assets.xcassets */,
 				443806D82B3600D200F3AC3B /* Preview Content */,
+				44EF051F2B5C31AC00264C8E /* colourpicker.swift */,
 			);
 			path = draw;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44EF05202B5C31AC00264C8E /* colourpicker.swift in Sources */,
 				443806D52B3600D000F3AC3B /* ContentView.swift in Sources */,
 				443806D32B3600D000F3AC3B /* drawApp.swift in Sources */,
 			);
