@@ -37,8 +37,12 @@ class DrawingViewModel: ObservableObject {
     }
 }
 
+<<<<<<< HEAD
 struct DrawingPath: Identifiable {
     let id = UUID()
+=======
+struct DrawingPath {
+>>>>>>> 281c47f2c6a449ca4849f410eef9f639f9a45270
     var path: Path
     var color: Color
     var lineWidth: CGFloat

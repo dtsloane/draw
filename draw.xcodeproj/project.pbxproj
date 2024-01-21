@@ -14,7 +14,11 @@
 		443806E42B3600D200F3AC3B /* drawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443806E32B3600D200F3AC3B /* drawTests.swift */; };
 		443806EE2B3600D200F3AC3B /* drawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443806ED2B3600D200F3AC3B /* drawUITests.swift */; };
 		443806F02B3600D200F3AC3B /* drawUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443806EF2B3600D200F3AC3B /* drawUITestsLaunchTests.swift */; };
+<<<<<<< HEAD
 		44EF05202B5C31AC00264C8E /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF051F2B5C31AC00264C8E /* ColorPickerView.swift */; };
+=======
+		44EF05202B5C31AC00264C8E /* olorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF051F2B5C31AC00264C8E /* olorPickerView.swift */; };
+>>>>>>> 281c47f2c6a449ca4849f410eef9f639f9a45270
 		44EF05222B5C73FF00264C8E /* DrawingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF05212B5C73FF00264C8E /* DrawingViewModel.swift */; };
 		44EF05262B5C97E700264C8E /* LineWidthPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF05252B5C97E700264C8E /* LineWidthPicker.swift */; };
 /* End PBXBuildFile section */
@@ -47,7 +51,11 @@
 		443806E92B3600D200F3AC3B /* drawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		443806ED2B3600D200F3AC3B /* drawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawUITests.swift; sourceTree = "<group>"; };
 		443806EF2B3600D200F3AC3B /* drawUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawUITestsLaunchTests.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		44EF051F2B5C31AC00264C8E /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+=======
+		44EF051F2B5C31AC00264C8E /* olorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = olorPickerView.swift; sourceTree = "<group>"; };
+>>>>>>> 281c47f2c6a449ca4849f410eef9f639f9a45270
 		44EF05212B5C73FF00264C8E /* DrawingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingViewModel.swift; sourceTree = "<group>"; };
 		44EF05252B5C97E700264C8E /* LineWidthPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineWidthPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,7 +112,11 @@
 				44EF05252B5C97E700264C8E /* LineWidthPicker.swift */,
 				443806D42B3600D000F3AC3B /* ContentView.swift */,
 				44EF05212B5C73FF00264C8E /* DrawingViewModel.swift */,
+<<<<<<< HEAD
 				44EF051F2B5C31AC00264C8E /* ColorPickerView.swift */,
+=======
+				44EF051F2B5C31AC00264C8E /* olorPickerView.swift */,
+>>>>>>> 281c47f2c6a449ca4849f410eef9f639f9a45270
 				443806D62B3600D200F3AC3B /* Assets.xcassets */,
 				443806D82B3600D200F3AC3B /* Preview Content */,
 			);
@@ -266,7 +278,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				44EF05202B5C31AC00264C8E /* ColorPickerView.swift in Sources */,
+=======
+				44EF05202B5C31AC00264C8E /* olorPickerView.swift in Sources */,
+>>>>>>> 281c47f2c6a449ca4849f410eef9f639f9a45270
 				44EF05222B5C73FF00264C8E /* DrawingViewModel.swift in Sources */,
 				443806D52B3600D000F3AC3B /* ContentView.swift in Sources */,
 				443806D32B3600D000F3AC3B /* drawApp.swift in Sources */,
