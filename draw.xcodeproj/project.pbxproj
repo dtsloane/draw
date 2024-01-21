@@ -14,7 +14,9 @@
 		443806E42B3600D200F3AC3B /* drawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443806E32B3600D200F3AC3B /* drawTests.swift */; };
 		443806EE2B3600D200F3AC3B /* drawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443806ED2B3600D200F3AC3B /* drawUITests.swift */; };
 		443806F02B3600D200F3AC3B /* drawUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443806EF2B3600D200F3AC3B /* drawUITestsLaunchTests.swift */; };
-		44EF05202B5C31AC00264C8E /* colourpicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF051F2B5C31AC00264C8E /* colourpicker.swift */; };
+		44EF05202B5C31AC00264C8E /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF051F2B5C31AC00264C8E /* ColorPickerView.swift */; };
+		44EF05222B5C73FF00264C8E /* DrawingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF05212B5C73FF00264C8E /* DrawingViewModel.swift */; };
+		44EF05262B5C97E700264C8E /* LineWidthPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF05252B5C97E700264C8E /* LineWidthPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +47,9 @@
 		443806E92B3600D200F3AC3B /* drawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		443806ED2B3600D200F3AC3B /* drawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawUITests.swift; sourceTree = "<group>"; };
 		443806EF2B3600D200F3AC3B /* drawUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		44EF051F2B5C31AC00264C8E /* colourpicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colourpicker.swift; sourceTree = "<group>"; };
+		44EF051F2B5C31AC00264C8E /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		44EF05212B5C73FF00264C8E /* DrawingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingViewModel.swift; sourceTree = "<group>"; };
+		44EF05252B5C97E700264C8E /* LineWidthPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineWidthPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +101,12 @@
 			isa = PBXGroup;
 			children = (
 				443806D22B3600D000F3AC3B /* drawApp.swift */,
+				44EF05252B5C97E700264C8E /* LineWidthPicker.swift */,
 				443806D42B3600D000F3AC3B /* ContentView.swift */,
+				44EF05212B5C73FF00264C8E /* DrawingViewModel.swift */,
+				44EF051F2B5C31AC00264C8E /* ColorPickerView.swift */,
 				443806D62B3600D200F3AC3B /* Assets.xcassets */,
 				443806D82B3600D200F3AC3B /* Preview Content */,
-				44EF051F2B5C31AC00264C8E /* colourpicker.swift */,
 			);
 			path = draw;
 			sourceTree = "<group>";
@@ -260,9 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44EF05202B5C31AC00264C8E /* colourpicker.swift in Sources */,
+				44EF05202B5C31AC00264C8E /* ColorPickerView.swift in Sources */,
+				44EF05222B5C73FF00264C8E /* DrawingViewModel.swift in Sources */,
 				443806D52B3600D000F3AC3B /* ContentView.swift in Sources */,
 				443806D32B3600D000F3AC3B /* drawApp.swift in Sources */,
+				44EF05262B5C97E700264C8E /* LineWidthPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,12 +426,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"draw/Preview Content\"";
 				DEVELOPMENT_TEAM = J77S5JK9F6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = draw;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -448,12 +458,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"draw/Preview Content\"";
 				DEVELOPMENT_TEAM = J77S5JK9F6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = draw;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
